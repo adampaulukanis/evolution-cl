@@ -102,7 +102,7 @@
                                                  (and (= (animal-x animal) x)
                                                       (= (animal-y animal) y)))
                                                *animals*)
-                                         #\M)
+                                         #\A)
                                         ((gethash (cons x y) *plants*) #\*)
                                         (t #\space))))
                   (princ "|"))))
